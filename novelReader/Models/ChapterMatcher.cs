@@ -12,6 +12,7 @@ namespace novelReader.Models
     /// </summary>
     public class ChapterMatcher
     {
+
         //正则表达式确定章节名称
         static Regex chapterRegex = new Regex(@"(?:^\s*|^\s*第.*?)(第[^\s,.，。]*?[章篇]\s?.*)");
 
